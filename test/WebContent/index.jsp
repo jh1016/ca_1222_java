@@ -14,6 +14,7 @@
 		background: black;
 		color: white;
 		overflow: hidden;
+		font-size: 20;
 	}
 	.headerright{
 			margin:0 10px;
@@ -316,9 +317,7 @@
         </article>
       </a>
     </div>
-  </div>
-  <br>
-  <div id="map">
+
 	<!-- 1. 지도 노드 -->
 	<div id="daumRoughmapContainer1569676989615" class="root_daum_roughmap root_daum_roughmap_landing"></div>
 	
@@ -339,6 +338,7 @@
 </div>
   <hr>
   <div class="footer-clean">
+        <center>
         <footer>
             <div class="container">
                 <div class="row justify-content-center">
@@ -372,6 +372,7 @@
                 </div>
             </div>
         </footer>
+    </center>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
